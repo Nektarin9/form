@@ -1,0 +1,40 @@
+.formContainer {
+	border: 1px solid rgba(76, 76, 76, 0.793);
+	border-radius: 15px;
+	padding: 30px 0 30px 0;
+	width: 600px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.button {
+	display: block;
+	margin: 20px auto;
+	text-align: center;
+	background-color: #6eb504;
+	color: white;
+	width: 200px;
+	height: 40px;
+	font-size: 1.5rem;
+	border: none;
+	cursor: pointer;
+}
+button:hover {
+	background-color: #4c7e01;
+}
+
+label {
+	position: relative;
+	display: block;
+	cursor: pointer;
+
+}
+.inputRadio {
+	position: relative;
+	right: 10px;
+}
+.wrapperInputRadio {
+	display: flex;
+	justify-content: space-around
+}
